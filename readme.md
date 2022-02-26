@@ -7,7 +7,7 @@ _Este repositorio fue creado como solución al Challengue Frontend #1 propuesto 
 [Puedes probarlo aqui!](https://portfolio-julian-pachon.netlify.app)
 
 ## Secciones
-* Sobre mi
+* Sobre mi 
 * Skills
 * Hobbies
 
