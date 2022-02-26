@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/img/logan_jota.png">
+    <title>Portfolio Julian Pachon</title>
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+    <header>
+        <div class="menu">
+            <p> Julian Pachon</p>
+            <nav>
+                <ul>
+                    <li><a href="#contenedor_sobremi">Sobre mi</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#hobbies">Hobbies</a></li>
+                    <li><a href="#">Formacion</a></li>
+                    <li><a href="#">Proyectos</a></li>
+                    <li><a class="email" href="mailto:jpachonl99@gmail.com">jpachonl99@gmail.com</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="contenedor_banner">
+            <div class="banner">
+                <div class="informacion">
+                    <h1>Hola, mi nombre es Julian Pachon y construyo paginas web</h1>
+                    <p>Soy formado en Analisis y desarrollo de sistemas de informacion y actualmente me encuentro participando del proyecto Oracle ONE en Alura latam</p>
+                    <ul>
+                        <li><a href="https://github.com/JulianTM">Github  </a></li>
+                        <li><a href="https://www.linkedin.com/in/juliantm/">Linkedin  </a></li>
+                        <li><a href="https://www.instagram.com/jotta_tm/">Instagram  </a></li>
+                        <li><a href="#">Curriculo  </a></li>
+                    </ul>
+                </div>
+                <img class="banner_img" src="/img/Julian cv.png" alt="Logo JOTA">
+            </div>
+        </section>
+        <section id="contenedor_sobremi">
+            <div class="sobremi">
+                <h2>Sobre mi</h2>
+                <p>Apasionado por el mundo de la tecnología y el desarrollo de sofware desde hace varios años, soy tecnologo en analisis y desarrollo de sistemas, he realizado un curso en desarrollo de software en el programa MisionTIC 2021, actualmente estoy realizando el curso de desarrollo de software dictado por Alura Latam en convenio con Oracle ONE.
+                </p>
+                <img src="/img/firma_julian-png.png" alt="Firma Julian">
+            </div>
+        </section>
+        <section class="adicionales">
+            <div id="skills">
+                <h2>Skills</h2>
+                <div>
+                    <img src="/img/html5.png" alt="Logo Html5">
+                    <p>Html5</p>
+                </div>
+                <div>
+                    <img src="/img/css.png" alt="Logo Css">
+                    <p>Css</p>
+                </div>
+                <div>
+                    <img src="/img/javascript.png" alt="Logo Javascript">
+                    <p>Javascript</p>
+                </div>
+                <div>
+                    <img src="/img/bootstrap.png" alt="Logo Boostrap">
+                    <p>Boostrap</p>
+                </div>
+                <div>
+                    <img src="/img/git.png" alt="Logo Git">
+                    <p>Git</p>
+                </div>
+            </div>
+            <div id="hobbies">
+                <h2>Hobbies</h2>
+                <div>
+                    <img src="/img/bici.png" alt="Logo Html5">
+                    <p>Montar Bici</p>
+                </div>
+                <div>
+                    <img src="/img/chess.png" alt="Logo Css">
+                    <p>Ajedrez</p>
+                </div>
+                <div>
+                    <img src="/img/senderismo.png" alt="Logo Javascript">
+                    <p>Senderismo</p>
+                </div>
+                <div>
+                    <img src="/img/pelicula.png" alt="Logo Boostrap">
+                    <p>Peliculas</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="contenido_footer">
+            <p>Desarrollado por Julian Pachon</p>
+            <p>2022</p>
+        </div>
+    </footer>
+    <script>
+        ScrollReveal().reveal('.menu', { duration: 3000, origin: 'bottom', distance: '-100px' });
+        ScrollReveal().reveal('.informacion',  { duration: 3000, origin: 'right', distance: '-100px' });
+        ScrollReveal().reveal('.banner_img',  { duration: 3000, origin: 'left', distance: '-100px' });
+        ScrollReveal().reveal('.sobremi',  { duration: 3000, origin: 'top', distance: '-100px' });
+        ScrollReveal().reveal('#skills', { duration: 3000, origin: 'right', distance: '-100px' });
+        ScrollReveal().reveal('#hobbies', { duration: 3000, origin: 'left', distance: '-100px' });
+        ScrollReveal().reveal('.contenido_footer', { duration: 3000, origin: 'bottom', distance: '-100px' });
+    </script>
+</body>
+</html>
