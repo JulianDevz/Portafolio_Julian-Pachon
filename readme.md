@@ -1,6 +1,6 @@
 # Mi Portfolio
 
-<div width="50%" align="center">
+<div width="50px" align="center">
   
 ![Screen portfolio](https://user-images.githubusercontent.com/42880872/155862393-37ccba7b-4dcf-468b-8b5e-4ff4eeb5b89b.png)
   
