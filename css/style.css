@@ -430,8 +430,9 @@ nav a{
     font-family: 'Montserrat', sans-serif;
 }
 
-.formulario input, .formulario textarea:focus{
-    border: none;
+.formulario input, .formulario textarea{
+    outline: 0;
+    box-shadow: 1px 1px 8px 0px rgba(0,0,0,0.05);
 }
 
 .formulario textarea{
