@@ -14,8 +14,9 @@ _Este repositorio fue creado como solución al Challengue Frontend #1 propuesto 
 * Sobre mi 
 * Skills
 * Hobbies
-
-A medida que avance en el proyecto, habran nuevas secciones en el portfolio
+* Formacion Academica
+* Experiencia Laboral
+* Contacto
 
 ## Construido con 🛠️
 
