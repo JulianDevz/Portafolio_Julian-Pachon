@@ -20,8 +20,8 @@
                     <li><a href="#contenedor_sobremi">Sobre mi</a></li>
                     <li><a href="#skills">Skills</a></li>
                     <li><a href="#hobbies">Hobbies</a></li>
-                    <li><a href="#">Formacion</a></li>
-                    <li><a href="#">Proyectos</a></li>
+                    <li><a href="#formacion">Formacion</a></li>
+                    <li><a href="#experiencia">Proyectos</a></li>
                     <li><a class="email" href="mailto:jpachonl99@gmail.com">jpachonl99@gmail.com</a></li>
                 </ul>
             </nav>
@@ -95,6 +95,81 @@
                 </div>
             </div>
         </section>
+        <section class="contenedor-formacion">
+            <div id="formacion">
+                <h2>Formacion Academica</h2>
+                <div class="contenido">
+                    <div class="formacion-img">
+                        <img class="logo_alura" src="/img/logo-alura.png" alt="Logo Alura latam">
+                    </div>
+                    <p class="curso">Programacion</p>
+                    <p class="datos-curso">En curso - Alura Latam</p>
+                </div>
+                <div class="contenido">
+                    <div class="formacion-img">
+                        <img class="logo_sergio" src="/img/logo-sergio_arboleda.png" alt="Logo Universidad Sergio Arboleda">
+                    </div>
+                    <p class="curso">Curso Desarrollo de Software</p>
+                    <p class="datos-curso">2021 - Sergio Arboleda</p>
+                </div>
+                <div class="contenido">
+                    <div class="formacion-img">
+                        <img class="logo_sena" src="/img/logo-sena.png" alt="Logo Sena">
+                    </div>
+                    <p class="curso">Tecnologo en ADSI</p>
+                    <p class="datos-curso">2017 - Sena</p>
+                </div>
+            </div>
+        </section>
+        <section class="contenedor-experiencia">
+            <div id="experiencia">
+                <h2 class="titulo-experiencia">Experiencia Profesional</h2>
+                <div class="contenido-experiencia wordle">
+                    <img src="/img/wordle.png" alt="Proyecto Wordle Clone">
+                    <div>
+                        <h3>Wordle Clone</h3>
+                        <p>Proyecto Personal</p>
+                        <a class="btn-repo" href="https://github.com/JulianTM/Wordle-Clone" target="_blank">Repositorio</a>
+                        <a class="btn-demo" href="https://wordle-clon-julian-pachon.netlify.app" target="_blank">Ver Demo</a>
+                    </div>
+                </div>
+                <div class="contenido-experiencia ahorcado">
+                    <div>
+                        <h3>Juego Ahorcado</h3>
+                        <p>Challenge #2</p>
+                        <a class="btn-repo" href="https://github.com/JulianTM/Juego-Ahorcado_Challengue-2" target="_blank" >Repositorio</a>
+                        <a class="btn-demo" href="https://juego-ahorcado-alura-challenge.netlify.app" target="_blank">Ver Demo</a>
+                    </div>
+                    <img src="/img/ahorcado.png" alt="Proyecto juego ahorcado">
+                </div>
+                <div class="contenido-experiencia encriptador">
+                    <img src="/img/encriptador.png" alt="Proyecto Encriptador de texto">
+                    <div>
+                        <h3>Encriptador de texto</h3>
+                        <p>Challenge #1</p>
+                        <a class="btn-repo" href="https://github.com/JulianTM/Encriptador-de-Texto_Challenge-1" target="_blank">Repositorio</a>
+                        <a class="btn-demo" href="https://juliantm.github.io/Encriptador-de-Texto_Challenge-1/" target="_blank">Ver Demo</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contenedor-formulario">
+            <div class="formulario">
+                <img class="img-form" src="/img/off.png" alt="Imagen contacto">
+                <div class="form-content">
+                    <h2>Contacto</h2>
+                    <p>¿Quieres contactarme?</p>
+                    <p>Completa el siguiente formulario y me pondre en contacto contigo lo antes posible</p>
+                    <form action="">
+                        <input id="nombre" type="text" name="nombre" placeholder="Nombre">
+                        <input id="email" type="email" name="email" placeholder="Email">
+                        <input id="asunto" type="text" name="asunto" placeholder="Asunto">
+                        <textarea rows="5" placeholder="Mensaje"></textarea>
+                        <input class="boton-form" type="submit" name="enviar" id="enviar" value="Enviar Mensaje">
+                    </form>
+                </div>
+            </div>
+        </section>
     </main>
     <footer class="footer">
         <div class="contenido_footer">
@@ -103,12 +178,19 @@
         </div>
     </footer>
     <script>
-        ScrollReveal().reveal('.menu', { duration: 3000, origin: 'bottom', distance: '-100px' });
-        ScrollReveal().reveal('.informacion',  { duration: 3000, origin: 'right', distance: '-100px' });
-        ScrollReveal().reveal('.banner_img',  { duration: 3000, origin: 'left', distance: '-100px' });
-        ScrollReveal().reveal('.sobremi',  { duration: 3000, origin: 'top', distance: '-100px' });
-        ScrollReveal().reveal('#skills', { duration: 3000, origin: 'right', distance: '-100px' });
-        ScrollReveal().reveal('#hobbies', { duration: 3000, origin: 'left', distance: '-100px' });
+        ScrollReveal().reveal('.menu', { duration: 3000, origin: 'top', distance: '-100px' });
+        ScrollReveal().reveal('.informacion', { duration: 3000, origin: 'right', distance: '-100px' });
+        ScrollReveal().reveal('.banner_img', { duration: 3000, origin: 'left', distance: '-100px' });
+        ScrollReveal().reveal('.sobremi', { duration: 3000, origin: 'top', distance: '-100px' });
+        ScrollReveal().reveal('#skills', { duration: 3500, origin: 'right', distance: '-100px' });
+        ScrollReveal().reveal('#hobbies', { duration: 4000, origin: 'left', distance: '-100px' });
+        ScrollReveal().reveal('#formacion', { duration: 4500, origin: 'right', distance: '-100px' });
+        ScrollReveal().reveal('.titulo-experiencia', { duration: 5000, origin: 'bottom', distance: '-100px' });
+        ScrollReveal().reveal('.wordle', { duration: 5500, origin: 'right', distance: '-100px' });
+        ScrollReveal().reveal('.ahorcado', { duration: 6000, origin: 'right', distance: '-100px' });
+        ScrollReveal().reveal('.encriptador', { duration: 6500, origin: 'left', distance: '-100px' });
+        ScrollReveal().reveal('.img-form', { duration: 6500, origin: 'right', distance: '-100px' });
+        ScrollReveal().reveal('.form-content', { duration: 6500, origin: 'left', distance: '-100px' });
         ScrollReveal().reveal('.contenido_footer', { duration: 3000, origin: 'bottom', distance: '-100px' });
     </script>
 </body>

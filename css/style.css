@@ -181,6 +181,7 @@ nav a{
     position: relative;
     margin-right: 10px;
     border-radius: 10px;
+    box-shadow: 1px 1px 8px 0px rgba(0,0,0,0.08);
 }
 
 #skills img{
@@ -222,6 +223,7 @@ nav a{
     position: relative;
     margin-right: 10px;
     border-radius: 10px;
+    box-shadow: 1px 1px 8px 0px rgba(0,0,0,0.08);
 }
 
 #hobbies img{
@@ -239,6 +241,218 @@ nav a{
 }
 
 /* 
+====================== FORMACION ==========================
+*/
+
+.contenedor-formacion{
+    background-color: #EAF2FD;
+}
+
+#formacion{
+    width: 940px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 70px 0;
+}
+
+#formacion h2{
+    font-size: 25px;
+    font-weight: 600;
+    color: #494141;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contenido{
+    display: inline-block;
+}
+
+.contenido div{
+    width: 96%;
+    height: 250px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 8px 0px rgba(0,0,0,0.08);
+}
+
+.logo_alura{
+    width: 60%;
+}
+.logo_sergio{
+    width: 65%;
+}
+.logo_sena{
+    width: 40%;
+}
+
+.contenido div{
+    margin: 20px 5px;
+}
+
+.contenido p{
+    margin: 5px 0;
+}
+
+.curso{
+    font-weight: 600;
+}
+
+
+/* 
+====================== EXPERIENCIA ==========================
+*/
+
+.contenedor-experiencia{
+    background-color: #F5F5F5;
+}
+
+#experiencia{
+    width: 940px;
+    margin: 0 auto;
+    padding: 70px 0;
+}
+
+#experiencia h2{
+    font-size: 25px;
+    font-weight: 600;
+    color: #494141;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contenido-experiencia img{
+    display: inline-block;
+    width: 65%;
+    margin: 40px 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 8px 0px rgba(0,0,0,0.35);
+}
+
+.contenido-experiencia div{
+    display: inline-block;
+    width: 25%;
+    vertical-align: top;
+    padding: 20px 10px;
+    margin: 140px 0;
+    text-align: center;
+}
+
+.contenido-experiencia h3{
+    font-weight: 600;
+    font-size: 20px;
+}    
+
+.contenido-experiencia h3, .contenido-experiencia p{
+    padding: 5px 0;
+}
+
+.btn-repo, 
+.btn-demo{
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 5px;
+    border-radius: 4px;
+}
+
+.btn-repo:hover, 
+.btn-demo:hover{
+    box-shadow: 1px 1px 8px 0px rgba(0,0,0,0.35);
+}
+
+
+.btn-repo{
+    padding: 7px 25px;
+    color: #2A7AE4 ;
+    border: 1px solid #2A7AE4;
+    margin-bottom: 5px;
+}
+
+.btn-demo{
+    padding: 7px 31px;
+    color: #ffffff;
+    background-color: #2A7AE4;
+}
+
+/* 
+====================== FORMULARIO ==========================
+*/
+
+.contenedor-formulario{
+    background-color: #EAF2FD ;
+}
+
+.formulario{
+    width: 940px;
+    margin: 0 auto;
+    padding: 70px 0;
+}
+
+.formulario img{
+    width: 50%;
+    height: 520px;
+    display: inline-block;
+    margin-right: 2%;
+}
+
+.formulario div{
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+}
+
+.formulario h2{
+    font-size: 25px;
+    font-weight: 600;
+    color: #494141;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.formulario p{
+    text-align: justify;
+    line-height: 20px;
+    margin: 10px 0;
+}
+
+.formulario input{
+    display: block;
+    margin: 20px 0;
+}
+
+.formulario input, .formulario textarea{
+    padding: 15px 64% 15px 7px ;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.formulario input, .formulario textarea:focus{
+    border: none;
+}
+
+.formulario textarea{
+    resize: none;
+}
+
+.formulario input:last-child{
+    border-radius: 5px;
+    padding: 10px 15px;
+    color: #ffffff;
+    background-color: #2A7AE4;
+    font-weight: 500;
+}
+
+.formulario input:last-child:hover{
+    box-shadow: 1px 1px 8px 0px rgba(0,0,0,0.35);
+    cursor: pointer;
+}
+
+
+/* 
 ====================== FOOTER ==========================
 */
 
@@ -253,6 +467,7 @@ nav a{
     display: block;
     padding: 5px 0;
 }
+
 
 /* 
 ====================== RESPONSIVE ==========================
