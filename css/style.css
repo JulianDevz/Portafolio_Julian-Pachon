@@ -418,12 +418,10 @@ nav a{
 }
 
 .form__label {
-	font-size: var(--font-size-form-fieldset);
 	margin-bottom: 1rem;
 }
 
 .input-container {
-	font-weight: var(--font-weigth-input);
 	position: relative;
 	margin-bottom: 1rem;
 	display: flex;
@@ -455,7 +453,6 @@ nav a{
 	position: absolute;
 	top: 1.375rem;
 	left: 0.5rem;
-	font-size: var(--font-size-input-label);
 
 	transition: all 0.25s;
 }
@@ -507,7 +504,6 @@ nav a{
 	position: relative;
 	margin-top: 2rem;
 	margin-bottom: 1rem;
-	font-weight: var(--font-weigth-input);
 }
 
 .textarea::placeholder {
@@ -518,16 +514,15 @@ nav a{
 	outline: none;
 }
 
-.textarea-label {
+.input-label {
 	position: absolute;
 	top: 0.5rem;
 	left: 0.5rem;
-	font-size: var(--font-size-input-label);
 	transition: all 0.25s;
 }
 
-.textarea:not(:placeholder-shown) + .textarea-label,
-.textarea:focus + .textarea-label {
+.textarea:not(:placeholder-shown) + .input-label,
+.textarea:focus + .input-label {
 	font-size: 0.875rem;
 	top: -1.25rem;
 	transition: all 0.25s;
@@ -537,12 +532,12 @@ nav a{
 	margin-bottom: 0.5rem;
 }
 
-.textarea-container--invalid .textarea {
-	border: 1px solid var(--warning-color);
+.input-container--invalid .textarea {
+	border: 1px solid red;
 }
 
-.textarea-container--invalid .textarea-label {
-	color: var(--warning-color);
+.textarea-container--invalid .input-label {
+	color: red;
 }
 
 .textarea-mensagem-erro {
@@ -551,7 +546,7 @@ nav a{
 
 .textarea-container--invalid .textarea-mensagem-erro {
 	display: block;
-	color: var(--warning-color);
+	color: red;
 	margin-top: 0.5rem;
 	padding-left: 0.5rem;
 }
