@@ -157,14 +157,30 @@
             <div class="formulario">
                 <img class="img-form" src="/img/off.png" alt="Imagen contacto">
                 <div class="form-content">
-                    <h2>Contacto</h2>
+                    <h2 class="titulo-contacto">Contacto</h2>
                     <p>¿Quieres contactarme?</p>
                     <p>Completa el siguiente formulario y me pondre en contacto contigo lo antes posible</p>
                     <form action="">
-                        <input id="nombre" type="text" name="nombre" placeholder="Nombre">
-                        <input id="email" type="email" name="email" placeholder="Email">
-                        <input id="asunto" type="text" name="asunto" placeholder="Asunto">
-                        <textarea rows="5" placeholder="Mensaje"></textarea>
+                        <div class="input-container">
+                            <input name="name" id="name" class="input inputs" type="text" placeholder="Nombre" required data-tipo="nombre">
+                            <label class="input-label" for="name">Nombre</label>
+                            <span class="input-message-error">Este campo no es valido</span>
+                        </div>
+                        <div class="input-container">
+                            <input name="email" id="email" class="input inputs" type="email" placeholder="Email" required data-tipo="email">
+                            <label class="input-label" for="name">Email</label>
+                            <span class="input-message-error">Este campo no es valido</span>
+                        </div>
+                        <div class="input-container">
+                            <input name="asunto" id="asunto" class="input inputs" type="text" placeholder="Asunto" pattern="[\s\S]{4,20}" required data-tipo="asunto">
+                            <label class="input-label" for="name">Asunto</label>
+                            <span class="input-message-error">Este campo no es valido</span>
+                        </div>
+                        <div class="textarea-container">
+                            <textarea name="mensaje" id="mensaje" class="textarea inputs" rows="5" type="text" placeholder="Mensaje" required data-tipo="mensaje"></textarea>
+                            <label class="textarea-label" for="name">Mensaje</label>
+                            <span class="input-message-error">Este campo no es valido</span>
+                        </div>
                         <input class="boton-form" type="submit" name="enviar" id="enviar" value="Enviar Mensaje">
                     </form>
                 </div>
@@ -177,6 +193,7 @@
             <p>2022</p>
         </div>
     </footer>
+    <script src="js/app.js" type="module"></script>
     <script>
         ScrollReveal().reveal('.menu', { duration: 3000, origin: 'top', distance: '-100px' });
         ScrollReveal().reveal('.informacion', { duration: 3000, origin: 'right', distance: '-100px' });
