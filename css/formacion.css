@@ -2,14 +2,11 @@
 	background-color: #EAF2FD;
 }
 
-#formacion{
-	width: 940px;
-	margin: 0 auto;
-	text-align: center;
+.formacion{
 	padding: 70px 0;
 }
 
-#formacion h2{
+.formacion__titulo{
 	font-size: 25px;
 	font-weight: 600;
 	color: #494141;
@@ -17,23 +14,40 @@
 	margin-bottom: 30px;
 }
 
-.contenido{
-	display: inline-block;
+.formacion__cards{
+	display: flex;
+	justify-content: center;
 }
 
-.contenido div{
-	width: 96%;
+.formacion__card{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.formacion__card:not(:last-child){
+	margin-right: 1.5rem ;
+}
+
+.formacion__card__img{
+	width: 100%;
 	height: 250px;
 	background-color: #ffffff;
 	border-radius: 5px;
+	box-shadow: 1px 1px 8px 0px rgba(0,0,0,0.08);
+	text-align: center;
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	box-shadow: 1px 1px 8px 0px rgba(0,0,0,0.08);
+	margin-bottom: 1rem;
 }
 
+
+
 .logo_alura{
-	width: 60%;
+	width: 65%;
 }
 .logo_sergio{
 	width: 65%;
@@ -42,14 +56,10 @@
 	width: 40%;
 }
 
-.contenido div{
-	margin: 20px 5px;
+.formacion__card__contenido__curso__datos{
+	margin: 7px 0;
 }
 
-.contenido p{
-	margin: 5px 0;
-}
-
-.curso{
+.formacion__card__contenido__curso{
 	font-weight: 600;
 }

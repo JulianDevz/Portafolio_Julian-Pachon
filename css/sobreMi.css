@@ -3,59 +3,31 @@
 }
 
 .sobremi{
-	width: 940px;
-	margin: 0 auto;
-	padding: 50px 0;
+	padding: 50px  0;
 }
 
-.sobremi h2, .sobremi p{
+.sobremi__titulo,
+.sobremi__texto{
 	margin-bottom: 20px;
 }
 
-.sobremi h2{
+.sobremi__titulo{
 	font-size: 25px;
 	font-weight: 600;
 	color: #494141;
 }
 
-.sobremi p{
+.sobremi__texto{
 	width: 80%;
 	text-align: justify;
 	line-height: 20px;
 }
 
-.sobremi img{
-	width: 20%;
+.sobremi__firma{
+	width: 15%;
 }
 
 @media screen and (max-width: 1024px ) {
-
-	/* ======= MENU ======== */
-	
-	.menu, .banner, .sobremi, #skills, #hobbies, .contenido_footer{
-		width: auto
-	}
-
-	.menu{
-		padding: 40px;
-	}
-	
-	.menu p, .menu nav{
-		font-size: 18px;
-	}
-
-
-	.menu a:not(.email){
-		display: none;
-	}
-
-	/* ======= BANNER ======== */
-
-	.banner{
-		width: auto;
-		padding: 0 40px;
-		padding-bottom: 30px;
-	}
 
 	/* ======= SOBRE MI ======== */
 
@@ -67,27 +39,6 @@
 		width: auto;
 	}
 
-	/* ======= SKILLS ======== */
-
-	#skills div{
-		display: inline-block;
-		width: 15%;
-		height: 140px;
-		background-color: #ffffff;
-		position: relative;
-		margin: 0 10px 10px 10px;
-		border-radius: 10px;
-	}
-
-	#hobbies div{
-		display: inline-block;
-		width: 15%;
-		height: 140px;
-		background-color: #ffffff;
-		position: relative;
-		margin: 0 10px 10px 10px;
-		border-radius: 10px;
-	}
 	
 }
 

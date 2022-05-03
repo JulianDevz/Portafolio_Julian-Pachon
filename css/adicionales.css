@@ -2,56 +2,17 @@
 	background-color: #F5F5F5;
 }
 
-#skills{
-	width: 940px;
-	margin: 0 auto;
+.skills{
 	padding: 60px 0 40px 0;
 	text-align: center;
 }
-
-#skills h2{
-	font-size: 25px;
-	font-weight: 600;
-	color: #494141;
-	text-align: center;
-	margin-bottom: 40px;
-}
-
-#skills div{
-	display: inline-block;
-	width: 16%;
-	height: 140px;
-	background-color: #ffffff;
-	position: relative;
-	margin-right: 10px;
-	border-radius: 10px;
-	box-shadow: 1px 1px 8px 0px rgba(0,0,0,0.08);
-}
-
-#skills img{
-	width: 25%;
-	position: absolute;
-	top: 60px;
-	left: 10px;
-}
-
-#skills p{
-	position: absolute;
-	top: 107px;
-	left: 13px;
-	font-weight: 600;
-}
-
-/* Hobbies */
-
-#hobbies{
-	width: 940px;
-	margin: 0 auto;
+.hobbies{
 	padding: 30px 0 60px 0;
 	text-align: center;
 }
 
-#hobbies h2{
+.skills__titulo,
+.hobbies__titulo{
 	font-size: 25px;
 	font-weight: 600;
 	color: #494141;
@@ -59,74 +20,51 @@
 	margin-bottom: 40px;
 }
 
-#hobbies div{
-	display: inline-block;
+.skills__cards,
+.hobbies__cards{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.skills__card,
+.hobbies__card{
 	width: 16%;
-	height: 140px;
+	height: 170px;
 	background-color: #ffffff;
-	position: relative;
-	margin-right: 10px;
+	margin-right: 20px;
 	border-radius: 10px;
 	box-shadow: 1px 1px 8px 0px rgba(0,0,0,0.08);
 }
 
-#hobbies img{
-	width: 25%;
-	position: absolute;
-	top: 60px;
-	left: 12px;
+.skills__card__contenido,
+.hobbies__card__contenido{
+	height: inherit;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
 
-#hobbies p{
-	position: absolute;
-	top: 107px;
-	left: 11px;
-	font-weight: 600;
+.skills__card__img,
+.hobbies__card__img{
+	width: 25%;
+	margin-bottom: .7rem;
 }
+
+.skills__card__titulo,
+.hobbies__card__titulo{
+	font-weight: 600;
+} 
+
 
 
 @media screen and (max-width: 1024px ) {
 
-	/* ======= MENU ======== */
-	
-	.menu, .banner, .sobremi, #skills, #hobbies, .contenido_footer{
-		width: auto
-	}
-
-	.menu{
-		padding: 40px;
-	}
-	
-	.menu p, .menu nav{
-		font-size: 18px;
-	}
-
-
-	.menu a:not(.email){
-		display: none;
-	}
-
-	/* ======= BANNER ======== */
-
-	.banner{
-		width: auto;
-		padding: 0 40px;
-		padding-bottom: 30px;
-	}
-
-	/* ======= SOBRE MI ======== */
-
-	.sobremi{
-		padding: 50px 40px;
-	}
-
-	.sobremi p{
-		width: auto;
-	}
-
 	/* ======= SKILLS ======== */
 
-	#skills div{
+	/* #skills div{
 		display: inline-block;
 		width: 15%;
 		height: 140px;
@@ -144,7 +82,7 @@
 		position: relative;
 		margin: 0 10px 10px 10px;
 		border-radius: 10px;
-	}
+	} */
 	
 }
 
@@ -152,7 +90,7 @@
 
 	/* ======= SKILLS ======== */
 
-	#skills div{
+	/* #skills div{
 		display: inline-block;
 		width: 30%;
 		height: 140px;
@@ -170,5 +108,5 @@
 		position: relative;
 		margin: 0 10px 10px 10px;
 		border-radius: 10px;
-	}
+	} */
 }

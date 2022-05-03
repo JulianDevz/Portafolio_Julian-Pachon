@@ -20,16 +20,16 @@
     <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 <body>
+
+    <!-------------------------------------------->
+    <!----------------- MENU --------------------->
+    <!-------------------------------------------->
+
     <header>
-
-        <!-------------------------------------------->
-        <!----------------- MENU --------------------->
-        <!-------------------------------------------->
-
-        <div class="menu">
-            <p> Julian Pachon</p>
-            <nav>
-                <ul>
+        <div class="menu container">
+            <p class="nombre"> Julian Pachón</p>
+            <nav class="nav-enlaces">
+                <ul class="enlaces">
                     <li><a href="#contenedor_sobremi">Sobre mi</a></li>
                     <li><a href="#skills">Skills</a></li>
                     <li><a href="#hobbies">Hobbies</a></li>
@@ -46,19 +46,21 @@
         <!----------------- BANNER --------------------->
         <!---------------------------------------------->
 
-        <section class="contenedor_banner">
-            <div class="banner">
-                <div class="informacion">
-                    <h1>Hola, mi nombre es Julian Pachon y construyo paginas web</h1>
-                    <p>Soy formado en Analisis y desarrollo de sistemas de informacion y actualmente me encuentro participando del proyecto Oracle ONE en Alura latam</p>
-                    <ul>
+        <section class="contenedor__banner">
+            <div class="banner container">
+                <div class="banner__informacion">
+                    <h1 class="banner__informacion__titulo">Hola, mi nombre es Julian Pachón y construyo paginas web</h1>
+                    <p class="banner__informacion__texto">Soy formado en Analisis y desarrollo de sistemas de informacion y actualmente me encuentro participando del proyecto Oracle ONE en Alura latam</p>
+                    <ul class="banner__informacion__enlaces">
                         <li><a href="https://github.com/JulianTM">Github  </a></li>
                         <li><a href="https://www.linkedin.com/in/juliantm/">Linkedin  </a></li>
                         <li><a href="https://www.instagram.com/jotta_tm/">Instagram  </a></li>
                         <li><a href="#">Curriculo  </a></li>
                     </ul>
                 </div>
-                <img class="banner_img" src="/img/Julian cv.png" alt="Logo JOTA">
+                <div class="banner__img">
+                    <img class="img" src="/img/Julian cv.png" alt="Logo JOTA">
+                </div>
             </div>
         </section>
 
@@ -67,11 +69,11 @@
         <!------------------------------------------------>
 
         <section id="contenedor_sobremi">
-            <div class="sobremi">
-                <h2>Sobre mi</h2>
-                <p>Apasionado por el mundo de la tecnología y el desarrollo de sofware desde hace varios años, soy tecnologo en analisis y desarrollo de sistemas, he realizado un curso en desarrollo de software en el programa MisionTIC 2021, actualmente estoy realizando el curso de desarrollo de software dictado por Alura Latam en convenio con Oracle ONE.
+            <div class="sobremi container">
+                <h2 class="sobremi__titulo">Sobre mi</h2>
+                <p class="sobremi__texto">Apasionado por el mundo de la tecnología y el desarrollo de sofware desde hace varios años, soy tecnologo en analisis y desarrollo de sistemas, he realizado un curso en desarrollo de software en el programa MisionTIC 2021, actualmente estoy realizando el curso de desarrollo de software dictado por Alura Latam en convenio con Oracle ONE.
                 </p>
-                <img src="/img/firma_julian-png.png" alt="Firma Julian">
+                <img class="sobremi__firma" src="/img/firma_julian-png.png" alt="Firma Julian">
             </div>
         </section>
 
@@ -80,46 +82,68 @@
         <!--------------------------------------------------->
 
         <section class="adicionales">
-            <div id="skills">
-                <h2>Skills</h2>
-                <div>
-                    <img src="/img/html5.png" alt="Logo Html5">
-                    <p>Html5</p>
-                </div>
-                <div>
-                    <img src="/img/css.png" alt="Logo Css">
-                    <p>Css</p>
-                </div>
-                <div>
-                    <img src="/img/javascript.png" alt="Logo Javascript">
-                    <p>Javascript</p>
-                </div>
-                <div>
-                    <img src="/img/bootstrap.png" alt="Logo Boostrap">
-                    <p>Boostrap</p>
-                </div>
-                <div>
-                    <img src="/img/git.png" alt="Logo Git">
-                    <p>Git</p>
+            <div id="skills" class="skills container">
+                <h2 class="skills__titulo">Skills</h2>
+                <div class="skills__cards">
+                    <div class="skills__card">
+                        <div class="skills__card__contenido">
+                            <img class="skills__card__img" src="/img/html5.png" alt="Logo Html5">
+                            <p class="skills__card__titulo">Html5</p>
+                        </div>
+                    </div>
+                    <div class="skills__card">
+                        <div class="skills__card__contenido">
+                            <img class="skills__card__img" src="/img/css.png" alt="Logo Css">
+                            <p class="skills__card__titulo">Css</p>
+                        </div>
+                    </div>
+                    <div class="skills__card">
+                        <div class="skills__card__contenido">
+                            <img class="skills__card__img" src="/img/javascript.png" alt="Logo Javascript">
+                            <p class="skills__card__titulo">Javascript</p>
+                        </div>
+                    </div>
+                    <div class="skills__card">
+                        <div class="skills__card__contenido">
+                            <img class="skills__card__img" src="/img/bootstrap.png" alt="Logo Boostrap">
+                            <p class="skills__card__titulo">Boostrap</p>
+                        </div>
+                    </div>
+                    <div class="skills__card">
+                        <div class="skills__card__contenido">
+                            <img class="skills__card__img" src="/img/git.png" alt="Logo Git">
+                            <p class="skills__card__titulo">Git</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div id="hobbies">
-                <h2>Hobbies</h2>
-                <div>
-                    <img src="/img/bici.png" alt="Logo Html5">
-                    <p>Montar Bici</p>
-                </div>
-                <div>
-                    <img src="/img/chess.png" alt="Logo Css">
-                    <p>Ajedrez</p>
-                </div>
-                <div>
-                    <img src="/img/senderismo.png" alt="Logo Javascript">
-                    <p>Senderismo</p>
-                </div>
-                <div>
-                    <img src="/img/pelicula.png" alt="Logo Boostrap">
-                    <p>Peliculas</p>
+            <div id="hobbies" class="hobbies container">
+                <h2 class="skills__titulo">Hobbies</h2>
+                <div class="hobbies__cards">
+                    <div class="hobbies__card">
+                        <div class="hobbies__card__contenido">
+                            <img class="hobbies__card__img" src="/img/bici.png" alt="Logo Html5">
+                            <p class="hobbies__card__titulo">Montar Bici</p>
+                        </div>
+                    </div>
+                    <div class="hobbies__card">
+                        <div class="hobbies__card__contenido">
+                            <img class="hobbies__card__img" src="/img/chess.png" alt="Logo Css">
+                            <p class="hobbies__card__titulo">Ajedrez</p>
+                        </div>
+                    </div>
+                    <div class="hobbies__card">
+                        <div class="hobbies__card__contenido">
+                            <img class="hobbies__card__img" src="/img/senderismo.png" alt="Logo Javascript">
+                            <p class="hobbies__card__titulo">Senderismo</p>
+                        </div>
+                    </div>
+                    <div class="hobbies__card">
+                        <div class="hobbies__card__contenido">
+                            <img class="hobbies__card__img" src="/img/pelicula.png" alt="Logo Boostrap">
+                            <p class="hobbies__card__titulo">Peliculas</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -129,28 +153,30 @@
         <!----------------------------------------------------------->
 
         <section class="contenedor-formacion">
-            <div id="formacion">
-                <h2>Formacion Academica</h2>
-                <div class="contenido">
-                    <div class="formacion-img">
-                        <img class="logo_alura" src="/img/logo-alura.png" alt="Logo Alura latam">
+            <div id="formacion" class="formacion container">
+                <h2 class="formacion__titulo">Formacion Academica</h2>
+                <div class="formacion__cards">
+                    <div class="formacion__card">
+                        <div class="formacion__card__img">
+                            <img class="logo_alura" src="/img/logo-alura.png" alt="Logo Alura latam">
+                        </div>
+                        <p class="formacion__card__contenido__curso">Programacion</p>
+                        <p class="formacion__card__contenido__curso__datos">En curso - Alura Latam</p>
                     </div>
-                    <p class="curso">Programacion</p>
-                    <p class="datos-curso">En curso - Alura Latam</p>
-                </div>
-                <div class="contenido">
-                    <div class="formacion-img">
-                        <img class="logo_sergio" src="/img/logo-sergio_arboleda.png" alt="Logo Universidad Sergio Arboleda">
+                    <div class="formacion__card">
+                        <div class="formacion__card__img">
+                            <img class="logo_sergio" src="/img/logo-sergio_arboleda.png" alt="Logo Universidad Sergio Arboleda">
+                        </div>
+                        <p class="formacion__card__contenido__curso">Curso Desarrollo de Software</p>
+                        <p class="formacion__card__contenido__curso__datos">2021 - Sergio Arboleda</p>
                     </div>
-                    <p class="curso">Curso Desarrollo de Software</p>
-                    <p class="datos-curso">2021 - Sergio Arboleda</p>
-                </div>
-                <div class="contenido">
-                    <div class="formacion-img">
-                        <img class="logo_sena" src="/img/logo-sena.png" alt="Logo Sena">
+                    <div class="formacion__card">
+                        <div class="formacion__card__img">
+                            <img class="logo_sena" src="/img/logo-sena.png" alt="Logo Sena">
+                        </div>
+                        <p class="formacion__card__contenido__curso">Tecnologo en ADSI</p>
+                        <p class="formacion__card__contenido__curso__datos">2017 - Sena</p>
                     </div>
-                    <p class="curso">Tecnologo en ADSI</p>
-                    <p class="datos-curso">2017 - Sena</p>
                 </div>
             </div>
         </section>
@@ -160,33 +186,41 @@
         <!----------------------------------------------------------->
 
         <section class="contenedor-experiencia">
-            <div id="experiencia">
-                <h2 class="titulo-experiencia">Experiencia Profesional</h2>
-                <div class="contenido-experiencia wordle">
-                    <img src="/img/wordle.png" alt="Proyecto Wordle Clone">
-                    <div>
-                        <h3>Wordle Clone</h3>
-                        <p>Proyecto Personal</p>
-                        <a class="btn-repo" href="https://github.com/JulianTM/Wordle-Clone" target="_blank">Repositorio</a>
-                        <a class="btn-demo" href="https://wordle-clon-julian-pachon.netlify.app" target="_blank">Ver Demo</a>
+            <div id="experiencia" class="experiencia container">
+                <h2 class="experiencia__titulo">Experiencia Profesional</h2>
+                <div class="experiencia__contenidos">
+                    <div class="experiencia__contenido wordle">
+                        <img class="experiencia__contenido__img" src="/img/wordle.png" alt="Proyecto Wordle Clone">
+                        <div class="experiencia__contenido__informacion">
+                            <h3 class="experiencia__contenido__informacion__titulo">Wordle Clone</h3>
+                            <p class="experiencia__contenido__informacion__texto">Proyecto Personal</p>
+                            <div class="experiencia__contenido__informacion__botones">
+                                <a class="btn-repo" href="https://github.com/JulianTM/Wordle-Clone" target="_blank">Repositorio</a>
+                                <a class="btn-demo" href="https://wordle-clon-julian-pachon.netlify.app" target="_blank">Ver Demo</a>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="contenido-experiencia ahorcado">
-                    <div>
-                        <h3>Juego Ahorcado</h3>
-                        <p>Challenge #2</p>
-                        <a class="btn-repo" href="https://github.com/JulianTM/Juego-Ahorcado_Challengue-2" target="_blank" >Repositorio</a>
-                        <a class="btn-demo" href="https://juego-ahorcado-alura-challenge.netlify.app" target="_blank">Ver Demo</a>
+                    <div class="experiencia__contenido ahorcado">
+                        <div class="experiencia__contenido__informacion">
+                            <h3 class="experiencia__contenido__informacion__titulo">Juego Ahorcado</h3>
+                            <p class="experiencia__contenido__informacion__texto">Challenge Alura #2</p>
+                            <div class="experiencia__contenido__informacion__botones">
+                                <a class="btn-repo" href="https://github.com/JulianTM/Juego-Ahorcado_Challengue-2" target="_blank" >Repositorio</a>
+                                <a class="btn-demo" href="https://juego-ahorcado-alura-challenge.netlify.app" target="_blank">Ver Demo</a>
+                            </div>
+                        </div>
+                        <img class="experiencia__contenido__img" src="/img/ahorcado.png" alt="Proyecto juego ahorcado">
                     </div>
-                    <img src="/img/ahorcado.png" alt="Proyecto juego ahorcado">
-                </div>
-                <div class="contenido-experiencia encriptador">
-                    <img src="/img/encriptador.png" alt="Proyecto Encriptador de texto">
-                    <div>
-                        <h3>Encriptador de texto</h3>
-                        <p>Challenge #1</p>
-                        <a class="btn-repo" href="https://github.com/JulianTM/Encriptador-de-Texto_Challenge-1" target="_blank">Repositorio</a>
-                        <a class="btn-demo" href="https://juliantm.github.io/Encriptador-de-Texto_Challenge-1/" target="_blank">Ver Demo</a>
+                    <div class="experiencia__contenido encriptador">
+                        <img class="experiencia__contenido__img" src="/img/encriptador.png" alt="Proyecto Encriptador de texto">
+                        <div class="experiencia__contenido__informacion">
+                            <h3 class="experiencia__contenido__informacion__titulo">Encriptador de texto</h3>
+                            <p class="experiencia__contenido__informacion__texto">Challenge Alura #1</p>
+                            <div class="experiencia__contenido__informacion__botones">
+                                <a class="btn-repo" href="https://github.com/JulianTM/Encriptador-de-Texto_Challenge-1" target="_blank">Repositorio</a>
+                                <a class="btn-demo" href="https://juliantm.github.io/Encriptador-de-Texto_Challenge-1/" target="_blank">Ver Demo</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -197,7 +231,7 @@
         <!------------------------------------------------>
 
         <section class="contenedor-formulario">
-            <div class="formulario">
+            <div class="formulario container">
                 <img class="img-form" src="/img/chat_contacto.png" alt="Imagen contacto">
                 <div class="form-content">
                     <h2 class="titulo-contacto">Contacto</h2>
@@ -236,14 +270,14 @@
     <!--------------------------------------------->
 
     <footer class="footer">
-        <div class="contenido_footer">
+        <div class="contenido_footer container">
             <p>Desarrollado por Julian Pachon</p>
             <p>2022</p>
         </div>
     </footer>
 
     <script src="js/app.js" type="module"></script>
-    <script>
+    <!-- <script>
         ScrollReveal().reveal('.menu', { duration: 3000, origin: 'top', distance: '-100px' });
         ScrollReveal().reveal('.informacion', { duration: 3000, origin: 'right', distance: '-100px' });
         ScrollReveal().reveal('.banner_img', { duration: 3000, origin: 'left', distance: '-100px' });
@@ -258,6 +292,6 @@
         ScrollReveal().reveal('.img-form', { duration: 6500, origin: 'right', distance: '-100px' });
         ScrollReveal().reveal('.form-content', { duration: 6500, origin: 'left', distance: '-100px' });
         ScrollReveal().reveal('.contenido_footer', { duration: 3000, origin: 'bottom', distance: '-100px' });
-    </script>
+    </script> -->
 </body>
 </html>

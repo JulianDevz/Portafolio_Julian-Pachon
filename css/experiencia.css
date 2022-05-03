@@ -2,13 +2,11 @@
 	background-color: #F5F5F5;
 }
 
-#experiencia{
-	width: 940px;
-	margin: 0 auto;
+.experiencia{
 	padding: 70px 0;
 }
 
-#experiencia h2{
+.experiencia__titulo{
 	font-size: 25px;
 	font-weight: 600;
 	color: #494141;
@@ -16,38 +14,60 @@
 	margin-bottom: 20px;
 }
 
-.contenido-experiencia img{
-	display: inline-block;
-	width: 65%;
-	margin: 40px 10px;
+.experiencia__contenidos{
+	display: flex;
+	flex-direction: column;
+}
+
+.experiencia__contenido{
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	margin: 40px 0;
+} 
+
+.experiencia__contenido__img{
+	width: 60%;
 	border-radius: 10px;
 	box-shadow: 1px 1px 8px 0px rgba(0,0,0,0.35);
 }
 
-.contenido-experiencia div{
-	display: inline-block;
-	width: 25%;
-	vertical-align: top;
-	padding: 20px 10px;
-	margin: 140px 0;
-	text-align: center;
+.experiencia__contenido__informacion{
+	width: 30%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
 
-.contenido-experiencia h3{
+.experiencia__contenido__informacion__botones{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.experiencia__contenido__informacion__titulo{
 	font-weight: 600;
-	font-size: 20px;
+	font-size: 1.5rem;
 }    
 
-.contenido-experiencia h3, .contenido-experiencia p{
+.experiencia__contenido__informacion__texto{
+	font-size: 1.2rem;
+}
+
+.experiencia__contenido__informacion__titulo,
+.experiencia__contenido__informacion__texto{
 	padding: 5px 0;
 }
 
 .btn-repo, 
 .btn-demo{
-	display: inline-block;
+	/* display:inline-block; */
 	text-decoration: none;
 	margin-top: 5px;
 	border-radius: 4px;
+	font-size: 1.3rem;
 }
 
 .btn-repo:hover, 
@@ -55,16 +75,15 @@
 	box-shadow: 1px 1px 8px 0px rgba(0,0,0,0.35);
 }
 
-
 .btn-repo{
-	padding: 7px 25px;
+	padding: 8px 25px;
 	color: #2A7AE4 ;
 	border: 1px solid #2A7AE4;
 	margin-bottom: 5px;
 }
 
 .btn-demo{
-	padding: 7px 31px;
+	padding: 10px 33px;
 	color: #ffffff;
 	background-color: #2A7AE4;
 }

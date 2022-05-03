@@ -3,33 +3,32 @@ header{
 }
 
 .menu{
-	width: 940px;
-	margin: 0 auto;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	padding: 2em 0;
 }
 
-.menu img, .menu p, .menu nav{
-	display: inline-block;
+.nombre{
+	color: rgb(104, 52, 52);
+	font-weight: 600;
 }
 
-nav li{
-	display: inline-block;
+.enlaces{
+	display: flex;
 }
 
-nav a{
+.enlaces a{
 	text-decoration: none;
 	color: #000000;
 	margin: 0 10px;
 }
 
-.menu p::before{
+.nombre::before{
 	content: '🚀';
 }
 
-.menu li:last-child{
+.enlaces li:last-child{
 	font-weight: 700;
 	color: #584b4b;
 }
@@ -59,45 +58,6 @@ nav a{
 		display: none;
 	}
 
-	/* ======= BANNER ======== */
-
-	.banner{
-		width: auto;
-		padding: 0 40px;
-		padding-bottom: 30px;
-	}
-
-	/* ======= SOBRE MI ======== */
-
-	.sobremi{
-		padding: 50px 40px;
-	}
-
-	.sobremi p{
-		width: auto;
-	}
-
-	/* ======= SKILLS ======== */
-
-	#skills div{
-		display: inline-block;
-		width: 15%;
-		height: 140px;
-		background-color: #ffffff;
-		position: relative;
-		margin: 0 10px 10px 10px;
-		border-radius: 10px;
-	}
-
-	#hobbies div{
-		display: inline-block;
-		width: 15%;
-		height: 140px;
-		background-color: #ffffff;
-		position: relative;
-		margin: 0 10px 10px 10px;
-		border-radius: 10px;
-	}
 	
 }
 
@@ -117,7 +77,6 @@ nav a{
 			
 		font-size: 14px;
 	}
-
 
 	.menu a:not(.email){
 		display: none;
