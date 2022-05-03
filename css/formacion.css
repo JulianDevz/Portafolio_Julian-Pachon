@@ -1,0 +1,55 @@
+.contenedor-formacion{
+	background-color: #EAF2FD;
+}
+
+#formacion{
+	width: 940px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 70px 0;
+}
+
+#formacion h2{
+	font-size: 25px;
+	font-weight: 600;
+	color: #494141;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.contenido{
+	display: inline-block;
+}
+
+.contenido div{
+	width: 96%;
+	height: 250px;
+	background-color: #ffffff;
+	border-radius: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 1px 1px 8px 0px rgba(0,0,0,0.08);
+}
+
+.logo_alura{
+	width: 60%;
+}
+.logo_sergio{
+	width: 65%;
+}
+.logo_sena{
+	width: 40%;
+}
+
+.contenido div{
+	margin: 20px 5px;
+}
+
+.contenido p{
+	margin: 5px 0;
+}
+
+.curso{
+	font-weight: 600;
+}

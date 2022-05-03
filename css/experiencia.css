@@ -1,0 +1,70 @@
+.contenedor-experiencia{
+	background-color: #F5F5F5;
+}
+
+#experiencia{
+	width: 940px;
+	margin: 0 auto;
+	padding: 70px 0;
+}
+
+#experiencia h2{
+	font-size: 25px;
+	font-weight: 600;
+	color: #494141;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.contenido-experiencia img{
+	display: inline-block;
+	width: 65%;
+	margin: 40px 10px;
+	border-radius: 10px;
+	box-shadow: 1px 1px 8px 0px rgba(0,0,0,0.35);
+}
+
+.contenido-experiencia div{
+	display: inline-block;
+	width: 25%;
+	vertical-align: top;
+	padding: 20px 10px;
+	margin: 140px 0;
+	text-align: center;
+}
+
+.contenido-experiencia h3{
+	font-weight: 600;
+	font-size: 20px;
+}    
+
+.contenido-experiencia h3, .contenido-experiencia p{
+	padding: 5px 0;
+}
+
+.btn-repo, 
+.btn-demo{
+	display: inline-block;
+	text-decoration: none;
+	margin-top: 5px;
+	border-radius: 4px;
+}
+
+.btn-repo:hover, 
+.btn-demo:hover{
+	box-shadow: 1px 1px 8px 0px rgba(0,0,0,0.35);
+}
+
+
+.btn-repo{
+	padding: 7px 25px;
+	color: #2A7AE4 ;
+	border: 1px solid #2A7AE4;
+	margin-bottom: 5px;
+}
+
+.btn-demo{
+	padding: 7px 31px;
+	color: #ffffff;
+	background-color: #2A7AE4;
+}

@@ -8,11 +8,24 @@
     <title>Portafolio - Julian Pachon</title>
     <link rel="stylesheet" href="/css/reset.css">
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/menu.css">
+    <link rel="stylesheet" href="/css/banner.css">
+    <link rel="stylesheet" href="/css/sobreMi.css">
+    <link rel="stylesheet" href="/css/adicionales.css">
+    <link rel="stylesheet" href="/css/formacion.css">
+    <link rel="stylesheet" href="/css/experiencia.css">
+    <link rel="stylesheet" href="/css/contacto.css">
+    <link rel="stylesheet" href="/css/footer.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
     <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 <body>
     <header>
+
+        <!-------------------------------------------->
+        <!----------------- MENU --------------------->
+        <!-------------------------------------------->
+
         <div class="menu">
             <p> Julian Pachon</p>
             <nav>
@@ -28,6 +41,11 @@
         </div>
     </header>
     <main>
+
+        <!---------------------------------------------->
+        <!----------------- BANNER --------------------->
+        <!---------------------------------------------->
+
         <section class="contenedor_banner">
             <div class="banner">
                 <div class="informacion">
@@ -43,6 +61,11 @@
                 <img class="banner_img" src="/img/Julian cv.png" alt="Logo JOTA">
             </div>
         </section>
+
+        <!------------------------------------------------>
+        <!----------------- SOBRE MI --------------------->
+        <!------------------------------------------------>
+
         <section id="contenedor_sobremi">
             <div class="sobremi">
                 <h2>Sobre mi</h2>
@@ -51,6 +74,11 @@
                 <img src="/img/firma_julian-png.png" alt="Firma Julian">
             </div>
         </section>
+
+        <!--------------------------------------------------->
+        <!----------------- ADICIONALES --------------------->
+        <!--------------------------------------------------->
+
         <section class="adicionales">
             <div id="skills">
                 <h2>Skills</h2>
@@ -95,6 +123,11 @@
                 </div>
             </div>
         </section>
+
+        <!----------------------------------------------------------->
+        <!----------------- FORMACION ACADEMICA --------------------->
+        <!----------------------------------------------------------->
+
         <section class="contenedor-formacion">
             <div id="formacion">
                 <h2>Formacion Academica</h2>
@@ -121,6 +154,11 @@
                 </div>
             </div>
         </section>
+
+        <!----------------------------------------------------------->
+        <!----------------- EXPERIENCIA LABORAL --------------------->
+        <!----------------------------------------------------------->
+
         <section class="contenedor-experiencia">
             <div id="experiencia">
                 <h2 class="titulo-experiencia">Experiencia Profesional</h2>
@@ -153,9 +191,14 @@
                 </div>
             </div>
         </section>
+
+        <!------------------------------------------------>
+        <!----------------- CONTACTO --------------------->
+        <!------------------------------------------------>
+
         <section class="contenedor-formulario">
             <div class="formulario">
-                <img class="img-form" src="/img/off.png" alt="Imagen contacto">
+                <img class="img-form" src="/img/chat_contacto.png" alt="Imagen contacto">
                 <div class="form-content">
                     <h2 class="titulo-contacto">Contacto</h2>
                     <p>¿Quieres contactarme?</p>
@@ -187,12 +230,18 @@
             </div>
         </section>
     </main>
+
+    <!--------------------------------------------->
+    <!----------------- FOOTER--------------------->
+    <!--------------------------------------------->
+
     <footer class="footer">
         <div class="contenido_footer">
             <p>Desarrollado por Julian Pachon</p>
             <p>2022</p>
         </div>
     </footer>
+
     <script src="js/app.js" type="module"></script>
     <script>
         ScrollReveal().reveal('.menu', { duration: 3000, origin: 'top', distance: '-100px' });

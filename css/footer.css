@@ -1,0 +1,11 @@
+.contenido_footer{
+	width: 940px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 20px 0;
+}
+
+.contenido_footer p{
+	display: block;
+	padding: 5px 0;
+}

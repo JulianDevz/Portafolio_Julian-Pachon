@@ -1,0 +1,106 @@
+#contenedor_sobremi{
+	background-color: #EAF2FD;
+}
+
+.sobremi{
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.sobremi h2, .sobremi p{
+	margin-bottom: 20px;
+}
+
+.sobremi h2{
+	font-size: 25px;
+	font-weight: 600;
+	color: #494141;
+}
+
+.sobremi p{
+	width: 80%;
+	text-align: justify;
+	line-height: 20px;
+}
+
+.sobremi img{
+	width: 20%;
+}
+
+@media screen and (max-width: 1024px ) {
+
+	/* ======= MENU ======== */
+	
+	.menu, .banner, .sobremi, #skills, #hobbies, .contenido_footer{
+		width: auto
+	}
+
+	.menu{
+		padding: 40px;
+	}
+	
+	.menu p, .menu nav{
+		font-size: 18px;
+	}
+
+
+	.menu a:not(.email){
+		display: none;
+	}
+
+	/* ======= BANNER ======== */
+
+	.banner{
+		width: auto;
+		padding: 0 40px;
+		padding-bottom: 30px;
+	}
+
+	/* ======= SOBRE MI ======== */
+
+	.sobremi{
+		padding: 50px 40px;
+	}
+
+	.sobremi p{
+		width: auto;
+	}
+
+	/* ======= SKILLS ======== */
+
+	#skills div{
+		display: inline-block;
+		width: 15%;
+		height: 140px;
+		background-color: #ffffff;
+		position: relative;
+		margin: 0 10px 10px 10px;
+		border-radius: 10px;
+	}
+
+	#hobbies div{
+		display: inline-block;
+		width: 15%;
+		height: 140px;
+		background-color: #ffffff;
+		position: relative;
+		margin: 0 10px 10px 10px;
+		border-radius: 10px;
+	}
+	
+}
+
+@media screen and (max-width: 480px ) {
+
+	/* ======= SOBRE MI ======== */
+
+	.sobremi{
+		padding: 50px 20px;
+	}
+
+	.sobremi p{
+		width: auto;
+	}
+	
+}

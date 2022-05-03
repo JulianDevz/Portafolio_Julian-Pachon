@@ -1,0 +1,146 @@
+.contenedor_banner{
+	background-color: #F5F5F5;
+}
+
+.banner{
+	width: 940px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px 0;
+}
+
+.informacion{
+	width: 65%;
+}
+
+.informacion{
+	display: inline-block;
+}
+
+.informacion h1, .informacion p, .informacion ul{
+	margin-bottom: 20px;
+}
+
+.informacion h1{
+	font-size: 33px;
+	font-weight: 700;
+	color: #494141;
+}
+
+.informacion p{
+	font-size: 20px;
+	line-height: 25px;
+}
+
+.informacion li::after{
+	content: '🡥';
+	color: #CFA616;
+}
+
+.informacion li{
+	display: inline;
+	margin: 0 20px 0 0;
+}
+
+.informacion a:hover{
+	color: #CFA616;
+}
+
+.informacion a{
+	text-decoration: none;
+	color: #000000;
+}
+
+.banner img{
+	width: 30%;
+	border-radius: 150px;
+    
+}
+
+@media screen and (max-width: 1024px ) {
+
+	/* ======= MENU ======== */
+	
+	.menu, .banner, .sobremi, #skills, #hobbies, .contenido_footer{
+		width: auto
+	}
+
+	.menu{
+		padding: 40px;
+	}
+	
+	.menu p, .menu nav{
+		font-size: 18px;
+	}
+
+
+	.menu a:not(.email){
+		display: none;
+	}
+
+	/* ======= BANNER ======== */
+
+	.banner{
+		width: auto;
+		padding: 0 40px;
+		padding-bottom: 30px;
+	}
+
+	/* ======= SOBRE MI ======== */
+
+	.sobremi{
+		padding: 50px 40px;
+	}
+
+	.sobremi p{
+		width: auto;
+	}
+
+	/* ======= SKILLS ======== */
+
+	#skills div{
+		display: inline-block;
+		width: 15%;
+		height: 140px;
+		background-color: #ffffff;
+		position: relative;
+		margin: 0 10px 10px 10px;
+		border-radius: 10px;
+	}
+
+	#hobbies div{
+		display: inline-block;
+		width: 15%;
+		height: 140px;
+		background-color: #ffffff;
+		position: relative;
+		margin: 0 10px 10px 10px;
+		border-radius: 10px;
+	}
+	
+}
+
+@media screen and (max-width: 480px ) {
+
+	/* ======= BANNER ======== */
+
+	.banner{
+		position: relative;
+	}
+
+	.informacion{
+		width: auto;
+		margin-top: 160px;
+		padding: 0 20px;
+	}
+
+	.banner_img{
+			position: absolute;
+			top: 10px;
+			left: 35%
+	}
+
+
+}
