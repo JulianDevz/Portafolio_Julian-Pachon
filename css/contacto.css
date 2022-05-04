@@ -118,6 +118,7 @@
 	width: 100%;
 	min-height: 3rem;
 	resize: none;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .textarea-container {
