@@ -59,54 +59,35 @@
 } 
 
 
+/* ------------------------------------ */
+/* ----- Responsive para Mobiles ------ */
+/* ------------------------------------ */
 
-@media screen and (max-width: 1024px ) {
+@media only screen and (max-width: 767px){
 
-	/* ======= SKILLS ======== */
-
-	/* #skills div{
-		display: inline-block;
-		width: 15%;
+	.skills__card,
+	.hobbies__card{
+		width: 40%;
 		height: 140px;
-		background-color: #ffffff;
-		position: relative;
-		margin: 0 10px 10px 10px;
-		border-radius: 10px;
+		margin-bottom: 20px;
+		margin-left: 10px;
+		margin-right: 10px;
 	}
-
-	#hobbies div{
-		display: inline-block;
-		width: 15%;
-		height: 140px;
-		background-color: #ffffff;
-		position: relative;
-		margin: 0 10px 10px 10px;
-		border-radius: 10px;
-	} */
-	
 }
 
-@media screen and (max-width: 480px ) {
+/* ------------------------------------ */
+/* ----- Responsive para Tablets ------ */
+/* ------------------------------------ */
 
-	/* ======= SKILLS ======== */
+@media (min-width:768px) and (max-width:1024px){
 
-	/* #skills div{
-		display: inline-block;
-		width: 30%;
+	.skills__card,
+	.hobbies__card{
+		width: 25%;
 		height: 140px;
-		background-color: #ffffff;
-		position: relative;
-		margin: 0 10px 10px 10px;
-		border-radius: 10px;
+		margin-bottom: 20px;
+		margin-left: 10px;
+		margin-right: 10px;
 	}
 
-	#hobbies div{
-		display: inline-block;
-		width: 30%;
-		height: 140px;
-		background-color: #ffffff;
-		position: relative;
-		margin: 0 10px 10px 10px;
-		border-radius: 10px;
-	} */
 }

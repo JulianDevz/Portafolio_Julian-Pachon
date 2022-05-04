@@ -41,10 +41,8 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	margin-bottom: 1rem;
+	margin-bottom: 2rem;
 }
-
-
 
 .logo_alura{
 	width: 65%;
@@ -56,10 +54,62 @@
 	width: 40%;
 }
 
+.formacion__card__contenido__curso{
+	text-align: center;
+}
+
 .formacion__card__contenido__curso__datos{
 	margin: 7px 0;
 }
 
 .formacion__card__contenido__curso{
 	font-weight: 600;
+}
+
+
+
+/* ------------------------------------ */
+/* ----- Responsive para Mobiles ------ */
+/* ------------------------------------ */
+
+@media only screen and (max-width: 767px){
+
+	.formacion{
+		padding: 40px 0 20px 0;
+	}
+
+	.formacion__cards{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.formacion__card{
+		margin-bottom: 2rem;
+		width: 100%;
+	}
+
+	.formacion__card__img{
+		margin-bottom: 1rem;
+		width: 90%;
+	}
+
+	.logo_alura{
+		width: 50%;
+	}
+	.logo_sergio{
+		width: 50%;
+	}
+	.logo_sena{
+		width: 30%;
+	}
+
+}
+
+/* ------------------------------------ */
+/* ----- Responsive para Tablets ------ */
+/* ------------------------------------ */
+
+@media (min-width:768px) and (max-width:1024px){
+
+
 }

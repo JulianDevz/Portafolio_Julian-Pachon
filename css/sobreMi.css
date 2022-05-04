@@ -27,31 +27,34 @@
 	width: 15%;
 }
 
-@media screen and (max-width: 1024px ) {
+/* ------------------------------------ */
+/* ----- Responsive para Mobiles ------ */
+/* ------------------------------------ */
 
-	/* ======= SOBRE MI ======== */
+@media only screen and (max-width: 767px){
 
-	.sobremi{
-		padding: 50px 40px;
+	.sobremi__texto{
+		width: 100%;
 	}
 
-	.sobremi p{
-		width: auto;
+	.sobremi__firma{
+		width: 30%;
 	}
 
-	
 }
 
-@media screen and (max-width: 480px ) {
+/* ------------------------------------ */
+/* ----- Responsive para Tablets ------ */
+/* ------------------------------------ */
 
-	/* ======= SOBRE MI ======== */
+@media (min-width:768px) and (max-width:1024px){
 
-	.sobremi{
-		padding: 50px 20px;
+	.sobremi__texto{
+		width: 100%;
 	}
 
-	.sobremi p{
-		width: auto;
+	.sobremi__firma{
+		width: 20%;
 	}
-	
+
 }

@@ -51,7 +51,7 @@
 }
   
 .input {
-	background-color: #EAF2FD;
+	background-color: #fff;
 	border: none;
 	box-sizing: border-box;
 	border-bottom: 1px solid #2A7AE4;
@@ -109,7 +109,7 @@
 }
 
 .textarea {
-	background-color: #EAF2FD;
+	background-color: #fff;
 	box-sizing: border-box;
 	border: none;
 	border-bottom: 1px solid #2A7AE4;
@@ -183,4 +183,49 @@
 .boton-form:hover{
 	box-shadow: 1px 1px 8px 0px rgba(0,0,0,0.35);
 	cursor: pointer;
+}
+
+
+/* ------------------------------------ */
+/* ----- Responsive para Mobiles ------ */
+/* ------------------------------------ */
+
+@media only screen and (max-width: 767px){
+
+	.formulario__contenedor{
+		display: none;
+	}
+
+	.formulario__contenido{
+		width: 90%;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.formulario{
+		padding: 50px 0;
+	}
+
+}
+
+/* ------------------------------------ */
+/* ----- Responsive para Tablets ------ */
+/* ------------------------------------ */
+
+@media (min-width:768px) and (max-width:1024px){
+
+	.formulario__contenedor{
+		display: none;
+	}
+
+	.formulario__contenido{
+		width: 90%;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.formulario{
+		padding: 50px 0;
+	}
+
 }
