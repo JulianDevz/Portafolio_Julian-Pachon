@@ -9,7 +9,7 @@ header{
 	padding: 2em 0;
 }
 
-.nombre{
+.menu__nombre{
 	color: rgb(104, 52, 52);
 	font-weight: 600;
 }
@@ -21,10 +21,13 @@ header{
 .enlaces a{
 	text-decoration: none;
 	color: #000000;
-	margin: 0 10px;
 }
 
-.nombre::before{
+.enlaces a{
+	margin-right: 10px;
+}
+
+.menu__nombre::before{
 	content: '🚀';
 }
 
@@ -37,45 +40,42 @@ header{
 	color: #CFA616;
 }
 
-@media screen and (max-width: 1024px ) {
+/* ------------------------------------ */
+/* ----- Responsive para Mobiles ------ */
+/* ------------------------------------ */
+
+@media only screen and (max-width: 767px){
 
 	/* ======= MENU ======== */
-	
-	.menu, .banner, .sobremi, #skills, #hobbies, .contenido_footer{
-		width: auto
-	}
 
 	.menu{
-		padding: 40px;
+		padding: 10px;
 	}
 	
-	.menu p, .menu nav{
-		font-size: 18px;
+	.menu__nombre,
+	.nav-enlaces{
+		font-size: 14px;
 	}
-
 
 	.menu a:not(.email){
 		display: none;
 	}
 
-	
 }
 
-@media screen and (max-width: 480px ) {
+/* ------------------------------------ */
+/* ----- Responsive para Tablets ------ */
+/* ------------------------------------ */
+
+@media (min-width:768px) and (max-width:1024px){
 
 	/* ======= MENU ======== */
-	
-	.menu, .banner, .sobremi, #skills, #hobbies, .contenido_footer{
-		width: auto;
-	}
-
 	.menu{
 		padding: 20px;
 	}
 	
 	.menu p, .menu nav{
-			
-		font-size: 14px;
+		font-size: 18px;
 	}
 
 	.menu a:not(.email){

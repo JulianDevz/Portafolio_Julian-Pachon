@@ -4,22 +4,30 @@
 
 .formulario{
 	padding: 70px 0;
-}
-
-.formulario img{
-	width: 50%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
 	height: 520px;
-	display: inline-block;
-	margin-right: 2%;
 }
 
-.form-content{
-	display: inline-block;
-	width: 45%;
-	vertical-align: top;
+.formulario__contenedor{
+	width: 40%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
-.formulario h2{
+.formulario__contenedor__img{
+	width: 100%;
+}
+
+.formulario__contenido{
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+}
+
+.formulario__contenido__titulo{
 	font-size: 25px;
 	font-weight: 600;
 	color: #494141;
@@ -27,14 +35,10 @@
 	margin-bottom: 30px;
 }
 
-.formulario p{
+.formulario p:not(:first-child){
 	text-align: justify;
-	line-height: 20px;
-	margin: 10px 0;
-}
-
-.form__label {
-	margin-bottom: 1rem;
+	line-height: 15px;
+	margin-bottom: 17px;
 }
 
 .input-container {

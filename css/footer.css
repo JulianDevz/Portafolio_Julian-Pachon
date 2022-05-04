@@ -1,9 +1,10 @@
-.contenido_footer{
-	text-align: center;
-	padding: 20px 0;
+.footer__contenido{
+	padding: 30px 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
-.contenido_footer p{
-	display: block;
-	padding: 5px 0;
+.footer__contenido p:not(:last-child){
+	margin-bottom: .8rem;
 }

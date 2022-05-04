@@ -20,7 +20,7 @@
 }
 
 .banner__img img{
-	width: 60%;
+	width: 75%;
 	border-radius: 30rem;
 }
 
@@ -46,13 +46,17 @@
 	line-height: 25px;
 }
 
+.banner__informacion__enlaces{
+	display: flex;
+	flex-direction: row;
+}
+
 .banner__informacion__enlaces li::after{
 	content: '🡥';
 	color: #CFA616;
 }
 
 .banner__informacion__enlaces li{
-	display: inline;
 	margin: 0 20px 0 0;
 }
 
@@ -65,37 +69,71 @@
 	color: #000000;
 }
 
-@media screen and (max-width: 1024px ) {
+/* ------------------------------------ */
+/* ----- Responsive para Mobiles ------ */
+/* ------------------------------------ */
 
-	/* ======= BANNER ======== */
+@media only screen and (max-width: 767px){
 
 	.banner{
-		width: auto;
-		padding: 0 40px;
-		padding-bottom: 30px;
+		flex-direction: column-reverse;
+		padding: 20px 0;
+	}
+
+	.banner__informacion{
+		width: 100%;
 	}
 	
+	.banner__img{
+		width: 100%;
+		margin-bottom: 1.5rem;
+	}
+	
+	.banner__img img{
+		width: 30%;
+	}
+
+	.banner__informacion__titulo{
+		font-size: 1.7rem;
+		line-height: 2rem;
+		text-align: center;
+	}
+
+	.banner__informacion__texto{
+		text-align:justify;
+		font-size: 16px;
+		line-height: 20px;
+	}
+
+	.banner__informacion__enlaces{
+		flex-direction: row;
+	}
+
+	.banner__informacion__enlaces li{
+		margin: 0 10px 0 0;
+		font-size: 14px;
+	}
+
 }
 
-@media screen and (max-width: 480px ) {
+/* ------------------------------------ */
+/* ----- Responsive para Tablets ------ */
+/* ------------------------------------ */
 
-	/* ======= BANNER ======== */
+@media (min-width:768px) and (max-width:1024px){
 
 	.banner{
-		position: relative;
+		padding: 20px 0 40px 0;
 	}
 
-	.informacion{
-		width: auto;
-		margin-top: 160px;
-		padding: 0 20px;
+	.banner__informacion__titulo{
+		font-size: 1.7rem;
+		line-height: 2rem;
 	}
 
-	.banner_img{
-			position: absolute;
-			top: 10px;
-			left: 35%
+	.banner__img img{
+		width: 82%;
+		border-radius: 30rem;
 	}
-
 
 }
