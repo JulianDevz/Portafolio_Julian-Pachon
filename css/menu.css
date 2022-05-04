@@ -61,6 +61,10 @@ header{
 		display: none;
 	}
 
+	.enlaces a {
+    margin-right: 0px;
+	}
+
 }
 
 /* ------------------------------------ */
@@ -80,6 +84,10 @@ header{
 
 	.menu a:not(.email){
 		display: none;
+	}
+
+	.enlaces a {
+    margin-right: 0px;
 	}
 
 }
