@@ -8,7 +8,7 @@
 
 _Este repositorio fue creado como solución al Challengue Frontend #1 propuesto por el curso de Frontend de Alura Latam_
 
-[Puedes probarlo aqui!](https://portfolio-julian-pachon.netlify.app)
+[Puedes probarlo aqui!](https://portafolio-julian-pachon.netlify.app)
 
 ## Secciones
 * Sobre mi 
