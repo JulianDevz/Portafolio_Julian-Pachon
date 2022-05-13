@@ -19,6 +19,7 @@
 
 .formulario__contenedor__img{
 	width: 100%;
+	height: 100%;
 }
 
 .formulario__contenido{
@@ -230,3 +231,14 @@
 	}
 
 }
+
+
+/* @media only screen and  (min-width:1600px){
+
+	.formulario__contenedor__img{
+		width: 80%;
+		height: 100%;
+	}
+
+} */
+
