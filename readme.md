@@ -6,8 +6,6 @@
   
 </div>
 
-_Este repositorio fue creado como solución al Challengue Frontend #1 propuesto por el curso de Frontend de Alura Latam_
-
 [Puedes probarlo aqui!](https://portafolio-julian-pachon.netlify.app)
 
 ## Secciones
@@ -23,10 +21,6 @@ _Este repositorio fue creado como solución al Challengue Frontend #1 propuesto 
 * Html
 * Css
 * Javascript
-
-## Gracias!!
-
-* Agradesco al programa de Oracle ONE y Alura Latam por permitirme ser parte de este proyecto, realmente estoy muy contento con las nuevas cosas que estoy aprendiendo y con los retos propuestos
 
 ---
 
