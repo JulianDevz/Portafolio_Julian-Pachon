@@ -4,6 +4,8 @@
 
 .experiencia{
 	padding: 70px 0;
+	width: 64%;
+	margin: 0 auto;
 }
 
 .experiencia__titulo{
@@ -11,7 +13,7 @@
 	font-weight: 600;
 	color: #494141;
 	text-align: center;
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 }
 
 .experiencia__contenidos{
@@ -27,13 +29,13 @@
 } 
 
 .experiencia__contenido__img{
-	width: 60%;
+	width: 55%;
 	border-radius: 10px;
 	box-shadow: 1px 1px 8px 0px rgba(0,0,0,0.35);
 }
 
 .experiencia__contenido__informacion{
-	width: 30%;
+	width: 25%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -49,11 +51,13 @@
 
 .experiencia__contenido__informacion__titulo{
 	font-weight: 600;
-	font-size: 1.5rem;
+	font-size: 1.3rem;
+	text-align: center;
 }    
 
 .experiencia__contenido__informacion__texto{
 	font-size: 1.2rem;
+	text-align: center;
 }
 
 .experiencia__contenido__informacion__titulo,
@@ -67,6 +71,7 @@
 	margin-top: 5px;
 	border-radius: 4px;
 	font-size: 1.3rem;
+	text-align: center;
 }
 
 .btn-repo:hover, 
@@ -155,5 +160,56 @@
 	.experiencia__contenido__informacion{
 		text-align: center
 	}
+
+	.experiencia{
+		padding: 50px 0 30px 0;
+	}
+
+	.wordle,
+	.encriptador{
+		flex-direction: column;
+	}
+
+	.ahorcado{
+		flex-direction: column-reverse;
+	}
+
+	.experiencia__contenido__img{
+		width: 90%;
+		margin-bottom: 1rem;
+	}
+	
+	.experiencia__contenido__informacion{
+		width: 90%;
+	}
+
+	.experiencia__contenido__informacion__botones{
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.experiencia__contenido__informacion__titulo{
+		font-weight: 600;
+		font-size: 1.3rem;
+	}    
+
+	.experiencia__contenido__informacion__texto{
+		font-size: 1rem;
+	}
+
+	.btn-repo, 
+	.btn-demo{
+		font-size: .9rem;
+	}
+
+	.btn-repo{
+		margin-bottom: 0px;
+		margin-right: .5rem;
+	}
+
+	.experiencia__contenido{
+		margin: 30px 0;
+	} 
 
 }

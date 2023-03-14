@@ -95,14 +95,17 @@
 		width: 90%;
 	}
 
-	.logo_alura{
-		width: 50%;
-	}
+	.logo_alura,
 	.logo_sergio{
 		width: 50%;
 	}
+
 	.logo_sena{
-		width: 30%;
+		width: 38%;
+	}
+
+	.logo_platzi{
+		width: 38%;
 	}
 
 }
